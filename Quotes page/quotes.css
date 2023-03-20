@@ -1,0 +1,91 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* Quotes page style */
+body{
+  background-color: #EEEEF3;
+}
+.container{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #F2F2F2;
+  width: 80%;
+  height: 316px;
+  font-size: 20px;
+  text-align: center;
+  margin-top: 100px;
+  border-radius: 17px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  padding: 15px;
+  font-family:'Fjord';
+}
+
+.card button {
+  width: 153px;
+  height: 47px;
+  background-color: black;
+  color: aliceblue;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  cursor: pointer;
+  border-radius: 10px;
+}
+.card button:focus{
+ outline: none;
+}
+#content{
+  font-family: 'Fjord One', serif;
+}
+/* Quotes page style ends */
+
+
+/* Nav Bar Style */
+.nav_bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 63px;
+  padding: 5px;
+  text-align: center;
+  position: fixed;
+  z-index: 100; 
+  bottom: 0; 
+  left: 0;
+  width: 100%;
+  background-color: white;
+}
+.nav_bar li {
+  display: inline-block;
+  height: 42px;
+  text-align: center;
+  border-radius: 7px;
+  padding-top: 8px;
+  font-size: 12px;
+}
+.nav_bar a{
+  width: 23%;
+  border-radius: 10px;
+}
+.nav_bar a:nth-child(3){
+  background-color: black;
+  color: white;
+}
+
+.nav_bar a:hover {
+  background-color: black;
+  color: white;
+  cursor: pointer;
+}
+.nav_bar a{
+  text-decoration: none;
+  color:black ;
+}
+/* Styling footer end */

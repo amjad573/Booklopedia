@@ -1,0 +1,145 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #EEEEF3;
+}
+.book-page{
+    padding-bottom: 50px;
+}
+
+/* Styling header section start */
+.book-header{
+    position: relative;
+    width: 100%;
+    height: 270px;
+}
+.background-image{
+    width: 100%;
+    height: 270px;
+    position: absolute;
+    top: 0;
+    opacity: 0.3;
+    object-fit: cover;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.book-cover{
+    position: absolute;
+    width: 152px;
+    height: 81%;
+    left: 8%;
+    top: 25%;
+    z-index: 2;
+    border-radius: 10px;
+    box-shadow: -1px 4px 4px rgb(0 0 0 / 25%); 
+}
+.save-button{
+    position: absolute;
+    width: 80px;
+    height: 43px;
+    left: 239px;
+    top: 247px;
+    border-radius: 15px;
+    background-color: #191927;
+    border: 1px solid #191927;
+    box-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
+    z-index: 2;
+    color: #dddddd;
+    font-size: 13px;
+    font-weight: 700;
+    font-family: "Roboto";
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+.save-button:focus{
+    outline: none;
+}
+.book-details{
+    position: absolute;
+    width: 47%;
+    height: 163px;
+    left: 190px;
+    top: 80px;
+    font-weight: bolder;
+    z-index: 2;
+    color: #191927;
+    font-family: 'Montserrat', sans-serif;
+}
+.book-details p:first-child{
+    margin: 0 0 10px 0;
+    font-size: 17px;
+}
+.book-details p:nth-child(2){
+    margin: 0px 0 10px 0;
+    font-size: 10px;
+}
+.book-details p:last-child{
+    font-size: 10px;
+}
+/* styling header section end */
+
+/* styling description section start */
+.book-description-text{
+    width: 83%;
+    padding: 15px;
+    margin: 40px auto;
+    box-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
+    background: #F2F2F2;
+    border-radius: 10px;
+    text-align: justify;
+    font-size: 12px;
+    line-height: 152.6%;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 1px;
+    font-weight: bold;
+}
+.book-description-text::first-line{
+    font-family: 'Sofia';
+    font-size: 16px;
+    line-height: 40px;
+    letter-spacing: 2px;
+    text-indent: 10px;
+    color: #FCB80A;
+}
+/* styling description section end */
+
+/* Styling footer section start */
+.nav-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 63px;
+    padding: 5px;
+    text-align: center;
+    position: fixed;
+    z-index: 100; 
+    bottom: 0; 
+    left: 0;
+    width: 100%;
+    background-color: white;
+  }
+  .nav-bar li {
+    display: inline-block;
+    height: 42px;
+    text-align: center;
+    border-radius: 7px;
+    padding-top: 8px;
+    font-size: 12px;
+  }
+  .nav-bar a{
+    width: 23%;
+    border-radius: 10px;
+  }
+  .nav-bar a:hover {
+    background-color: black;
+    color: white;
+    cursor: pointer;
+  }
+  .nav-bar a{
+    text-decoration: none;
+    color:black ;
+  }
+  /* Styling footer end */
+  
